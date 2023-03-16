@@ -1,7 +1,12 @@
 {
     "name": "billal4b/laravel-unique-slug",
     "description": "Unique slug generator for laravel eloquent model",
-    "type": "composer-plugin",
+    "keywords": [
+        "laravel",
+        "laravel-unique-slug",
+        "slug"
+    ],
+    "homepage": "https://github.com/billal4b/laravel-unique-slug",
     "license": "MIT",
     "autoload": {
         "psr-4": {
