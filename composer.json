@@ -1,0 +1,31 @@
+{
+    "name": "billal4b/laravel-unique-slug",
+    "description": "Unique slug generator for laravel eloquent model",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Billal\\UniqueSlug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Billal Hossain",
+            "email": "billal4b@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Billal\\UniqueSlug\\UniqueSlugServiceProvider"
+            ],
+            "aliases": {
+                "UniqueSlug": "Billal\\UniqueSlug\\UniqueSlug"
+            }
+        }
+    }
+}
