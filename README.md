@@ -17,16 +17,16 @@ use Billal\UniqueSlug\Facades\UniqueSlug;
 
 ```php
 
-$slug = UniqueSlug::generate(App\Models\Post::class, "post", "slug");
-// post
+$slug = UniqueSlug::generate(App\Models\Post::class, "First Post", "slug");
+// first-post
 
 //After crating a new post with slug post, then again hit
-$slug = UniqueSlug::generate(App\Models\Post::class, "post", "slug");
-// post-1
+$slug = UniqueSlug::generate(App\Models\Post::class, "First Post", "slug");
+// first-post-1
 
 //After crating a new post with slug post, then again hit
-$slug = UniqueSlug::generate(App\Models\Post::class, "post", "slug");
-// post-2
+$slug = UniqueSlug::generate(App\Models\Post::class, "First Post", "slug");
+// first-post-2
 ```
 
 #### Publish Configuration
