@@ -20,11 +20,11 @@ use Billal\UniqueSlug\Facades\UniqueSlug;
 $slug = UniqueSlug::generate(App\Models\Post::class, "First Post", "slug");
 // first-post
 
-//After crating a new post with slug post, then again hit
+//After crating a new post with slug First Post, then again hit
 $slug = UniqueSlug::generate(App\Models\Post::class, "First Post", "slug");
 // first-post-1
 
-//After crating a new post with slug post, then again hit
+//After crating a new post with slug First Post, then again hit
 $slug = UniqueSlug::generate(App\Models\Post::class, "First Post", "slug");
 // first-post-2
 ```
